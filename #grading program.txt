@@ -1,0 +1,45 @@
+#grading program
+print("=" * 40)
+print("GRADING PROGRAM")
+print("=" * 40)
+
+name = input("ENTER YOUR NAME:")
+
+print("=" * 40)
+
+
+english = int(input("Enter grades:"))
+science = int(input("Enter grades:"))
+filipino = int(input("Enter grades:"))
+math = int(input("Enter grades:"))
+program = int(input("Enter grades:"))
+data_analysis = int(input("Enter grades:"))
+pathfit = int(input("Enter grades:"))
+computing = int(input("Enter grades:"))
+
+if grade == 99 - 97:
+    print("S")
+
+elif grade == 96 - 94:
+    print ("A")
+
+elif grade == 90 - 93:
+    print ("B")
+
+elif grade == 89 - 85:
+    print ("C")
+
+elif grade == 84 -  80:
+    print("D")
+
+elif grade == 79 - 75:
+    print ("E")
+
+else:
+    print ("FAILED")
+
+total = average
+
+print ("Total:", total)
+print ("Average:", average)
+
